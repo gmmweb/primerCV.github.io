@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #292528;
+}
+.contenedorCabe {
+  width: 100%;
+  height: 155px;
+  background: #434748;
+  color: #fffffc;
+  font-family: "Unbounded", sans-serif;
+  font-weight: bolder;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedorCabe .img {
+  position: absolute;
+  top: 28%;
+  left: 75%;
+}
+
+.contenedorCabe .img img {
+  width: 120px;
+}
+
+.navegador {
+  font-family: "Unbounded", sans-serif;
+  font-weight: bolder;
+  background-color: #eadeda;
+  display: inline-flex;
+}
+
+.navegador a {
+  text-decoration: none;
+  color: #292528;
+  padding: 0px 30px;
+}
+
+.navegador a:hover {
+  background-color: #292528;
+  color: #eadeda;
+}
+
+.contenedoresSecun {
+  width: 90%;
+  height: auto;
+  background: #4f5165;
+  margin: 10% auto;
+  padding: 20px;
+}
+
+.contenedoresSecun .titulo1 {
+  color: #fffffc;
+  font-family: "Unbounded", sans-serif;
+  font-weight: bolder;
+  font-size: 18px;
+  text-align: center;
+  border-bottom: 2px #fffffc solid;
+}
+
+.contenedoresSecun .texto1 {
+  color: #eadeda;
+  font-family: "Unbounded", sans-serif;
+  font-size: 18px;
+  display: inline;
+  margin-right: 5px;
+}
+
+.contenedoresSecun .datos {
+  color: #b5b5b5;
+  font-family: "Unbounded", sans-serif;
+  font-size: 15px;
+  display: inline;
+}
+
+.contenedoresSecun .lista {
+  color: #b5b5b5;
+  font-family: "Unbounded", sans-serif;
+  font-size: 15px;
+  display: inline;
+  margin-left: 500px;
+}
+
+.boton-up {
+  width: 50px;
+  height: 50px;
+  outline: 0;
+  border: 5px solid #292528;
+  background-color: #b5b5b5;
+  position: fixed;
+  right: 20px;
+  left: 95%;
+  bottom: 50px;
+  cursor: pointer;
+}
